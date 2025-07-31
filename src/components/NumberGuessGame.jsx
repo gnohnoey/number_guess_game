@@ -14,7 +14,7 @@ const NumberGuessGame = () => {
 
     const num = Number(guess);
     if (isNaN(num) || num < 1 || num > 100) {
-      setMessageg('⚠️ 1부터 100 사이의 숫자를 입력하세요');
+      setMessage('⚠️ 1부터 100 사이의 숫자를 입력하세요');
       return;
     }
 
