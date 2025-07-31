@@ -59,7 +59,7 @@ const NumberGuessGame = () => {
       </button>
       <p className="text-lg font-medium">{message}</p>
       <div className="w-full">
-        <h2 className="font-semibold mb-2 text-gray-500">입력 기록</h2>
+        <h2 className="font-semibold mb-2 text-gray-500">입력 횟수 {history.length}</h2>
         <ul className="list-disc list-inside text-sm text-gray-500">
           {history.map((num, index) => (
             <li key={index}>{num}</li>
